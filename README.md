@@ -1,6 +1,6 @@
 Odkaz na Figmu: [https://www.figma.com/design/AmURE4nl35BukFcKM5l2ch/Ga%C5%A1par%C3%ADnAdam?node-id=0-1&t=8jCsVO7Y1PHv0egY-1](https://www.figma.com/design/AmURE4nl35BukFcKM5l2ch/Ga%C5%A1par%C3%ADnAdam?node-id=0-1&t=8jCsVO7Y1PHv0egY-1)
 
-Odkaz na Github Pages: [Odkaz na živý web](https://pslib-cz.github.io/2024-p2b-web-projekt-Gaspy1/)
+Odkaz na Github Pages: [Odkaz na živý web](https://pslib-cz.github.io/2024-p2b-web-projekt-Gaspy1)
 
 Téma webu: Satirická(snad se zasmějete) stránka na nákup kodnomů
 
