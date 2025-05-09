@@ -11,6 +11,8 @@ header{
 
 body{
   background-color: #D9D9D9;
+    min-width: 320px;
+  min-height: 100vh;
 }
 
 
@@ -28,10 +30,24 @@ body{
 }
 
 .mainp{
-  padding: 0 2em;
+  padding: 0 2.5em;
 }
 
 
-.mainp{
-  padding: 0 2em;
+.picture__link {
+  display: block;
+  height: 100%;
 }
+
+.picture__image {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.picture {
+  margin: 0px; 
+  display: block;
+}
+
