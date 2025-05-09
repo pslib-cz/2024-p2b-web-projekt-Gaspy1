@@ -15,6 +15,14 @@ body{
   min-height: 100vh;
 }
 
+img{
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+  object-fit: cover; 
+}
 
 .header__title {
   padding: 0 1em;
@@ -26,6 +34,7 @@ body{
 
 .main__title {
   border-bottom: 1px solid rgb(163, 163, 163);
+
 }
 
 .main__p {
@@ -51,14 +60,21 @@ body{
 
 .button {
   display: inline-block;
-  padding: 1em 2em;
   text-decoration: none;
   border-radius: 1.25em;
-  font-weight: 700;
+  font-weight: 500;
   text-align: center;
   color: var(--color-white);
   background-color: var(--color-primary);
   cursor: pointer;
+}
+
+.button--main{
+  padding: 1em 1.5em;
+}
+
+.button--card{
+  padding: 0.75em 1em;
 }
 
 .button__container {
@@ -70,4 +86,42 @@ body{
   padding: 0.25em;
   text-align: center;
   background: linear-gradient(90deg, rgba(140, 140, 140, 1) 0%, rgba(188, 188, 188, 1) 100%);
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 165px;
+  background-color: #E8E8E8;
+  gap: 0.5em;
+  margin: 1em 0;
+  padding: 1em 0;
+}
+
+.card__img {
+  width: 100%;
+  height: auto;
+  max-width: 100px;
+}
+
+
+.card__price {
+  font-size: 1.75em;
+}
+
+.card__price p {
+  margin: 0;
+}
+
+.card__title{
+  text-align: center;
+  padding: 0 1em;
 }
