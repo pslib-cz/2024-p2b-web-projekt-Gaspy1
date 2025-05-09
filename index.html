@@ -1,66 +1,66 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8"/>
-    <link rel="stylesheet" href= "./src/styles/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Domovská stránka</title>
-  </head>
-  <body>
-    <header>
-      <div class="header__title">
-        <h1>SecretZone</h1>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href= "./src/styles/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Domovská stránka</title>
+</head>
+<body>
+  <header>
+    <div class="header__title">
+      <h1>SecretZone</h1>
+    </div>
+  </header>
+  <main>
+    <div class="main__text">
+      <div class="main__title">
+        <h2>Domovská stránka</h2>
       </div>
-    </header>
-    <main>
-      <div class="main__text">
-        <div class="main__title">
-          <h2>Domovská stránka</h2>
+      <div class="main__p">
+        <p>Vítejte v e-shopu SecretZone. Vzhledem k věcem, ketré se zde nachází Vás tímto varujeme, že stránka je určena pro osoby starší 18 let a za případnou mentální újmu neneseme odpovědnost.</p>
+      </div>
+    </div>
+
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide picture">
+          <a class="picture__link" href="./public/images/Mobile/Plakat_Ochucene.webp">
+            <img class="picture__image" src="./public/images/Mobile/Plakat_Ochucene.webp" alt="Plakát Fruity Kondomy">
+          </a>
         </div>
-        <div class="main__p">
-          <p>Vítejte v e-shopu SecretZone. Vzhledem k věcem, ketré se zde nachází Vás tímto varujeme, že stránka je určena pro osoby starší 18 let a za případnou mentální újmu neneseme odpovědnost.</p>
+        <div class="swiper-slide picture">
+          <a class="picture__link" href="./public/images/Mobile/Plakat_Klasik.webp">
+          <img class="picture__image" src="./public/images/Mobile/Plakat_Klasik.webp" alt="Plakát Classic Kondomy">
+          </a>
+        </div>
+        <div class="swiper-slide picture">
+          <a class="picture__link" href="./public/images/Mobile/Plakat_Tenke.webp">
+          <img class="picture__image" src="./public/images/Mobile/Plakat_Tenke.webp" alt="Plakát Thin Kondomy">
+          </a>
         </div>
       </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
 
-      <div class="swiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide picture">
-            <a class="picture__link" href="./public/images/Mobile/Plakat_Ochucene.webp">
-              <img class="picture__image" src="./public/images/Mobile/Plakat_Ochucene.webp" alt="Plakát Fruity Kondomy">
-            </a>
-          </div>
-          <div class="swiper-slide picture">
-            <a class="picture__link" href="./public/images/Mobile/Plakat_Klasik.webp">
-            <img class="picture__image" src="./public/images/Mobile/Plakat_Klasik.webp" alt="Plakát Classic Kondomy">
-            </a>
-          </div>
-          <div class="swiper-slide picture">
-            <a class="picture__link" href="./public/images/Mobile/Plakat_Tenke.webp">
-            <img class="picture__image" src="./public/images/Mobile/Plakat_Tenke.webp" alt="Plakát Thin Kondomy">
-            </a>
-          </div>
-        </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
 
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </div>
+    <div class="button__container">
+      <a href="#" class="button">Chci kondomy</a>
+    </div>
 
-        <!-- If we need scrollbar -->
-        <div class="swiper-scrollbar"></div>
-      </div>
-      <div class="button__container">
-        <a href="#" class="button">Do&nbsp;košíku</a>
-      </div>
-
-    </main>
-    <footer>
-      <div class="footer__text">
-        <p>Autor: Adam Gašparín</p>
-      </div>
-    </footer>
-  </body>
-  <script type="module" src="/src/scripts/swiper.js"></script>
-  <script type="module" src="/src/scripts/main.js"></script>
+  </main>
+  <footer>
+    <div class="footer__text">
+      <p>Autor: Adam Gašparín</p>
+    </div>
+  </footer>
+</body>
+<script type="module" src="/src/scripts/swiper.js"></script>
+<script type="module" src="/src/scripts/main.js"></script>
 </html>
