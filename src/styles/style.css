@@ -2,37 +2,35 @@
 @import "typography.css";
 
 
-
 header{
   padding: 1em 0;
-  background: linear-gradient(90deg,rgba(171, 0, 166, 1) 0%, rgba(251, 153, 248, 1) 100%);
-  color: white;
+  background: linear-gradient(90deg,  var(--color-primary) 0%, rgba(251, 153, 248, 1) 100%);
+  color: var(--color-white);
+  
 }
 
 body{
-  background-color: #D9D9D9;
-    min-width: 320px;
+  background-color: var(--color-secondary);
+  min-width: 320px;
   min-height: 100vh;
 }
 
 
-.header-title{
+.header__title {
   padding: 0 1em;
-} 
+}
 
-
-.maintext{
+.main__text {
   text-align: center;
 }
 
-.pagetitle{
-  border-bottom: 1px solid rgb(163, 163, 163)
+.main__title {
+  border-bottom: 1px solid rgb(163, 163, 163);
 }
 
-.mainp{
+.main__paragraph {
   padding: 0 2.5em;
 }
-
 
 .picture__link {
   display: block;
@@ -47,7 +45,29 @@ body{
 }
 
 .picture {
-  margin: 0px; 
+  margin: 0px;
   display: block;
 }
 
+.button {
+  display: inline-block;
+  padding: 1em 2em;
+  text-decoration: none;
+  border-radius: 15px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  cursor: pointer;
+}
+
+.button__container {
+  text-align: center;
+  margin: 1em;
+}
+
+.footer__text {
+  padding: 0.25em;
+  text-align: center;
+  background: linear-gradient(90deg, rgba(140, 140, 140, 1) 0%, rgba(188, 188, 188, 1) 100%);
+}
