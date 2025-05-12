@@ -62,12 +62,16 @@ img{
   display: inline-block;
   text-decoration: none;
   border-radius: 1.25em;
-  font-weight: 500;
   text-align: center;
   color: var(--color-white);
   background-color: var(--color-primary);
   cursor: pointer;
 }
+
+.button--form{
+  padding: 1em 2em;
+}
+
 
 .button--main{
   padding: 1em 1.5em;
@@ -100,17 +104,21 @@ img{
   align-items: center;
   max-width: 165px;
   background-color: #E8E8E8;
-  gap: 0.5em;
+  gap: var(--gap);
   padding: 1em 0;
   margin: 0.75em 0.5em;
 }
 
-.card__img {
+.card__img img{
   width: 100%;
   height: auto;
   max-width: 100px;
+  transition: transform 0.3s ease;
 }
 
+.card__img:hover img {
+  transform: scale(1.15); 
+}
 
 .card__price {
   font-size: 1.5em;
@@ -122,5 +130,25 @@ img{
 
 .card__title{
   text-align: center;
-  padding: 0 1em;
+  padding: 0 1.3em;
 }
+
+.form__label {
+  display: block;
+  margin-bottom: 0.25em;
+  font-weight: 500;
+}
+
+.form__input {
+  padding: 0.75em;
+  border: none;
+  border-radius: 0.5em;
+}
+
+form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap);
+}
+
