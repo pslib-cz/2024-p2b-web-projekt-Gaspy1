@@ -18,17 +18,14 @@
 
 
 a {
+  display: inline-block;
   font-weight: 500;
   color: white;
   text-decoration: none;
 }
-/*
-a:hover {
-color: black;
-}*/
+
 
 h1 {
-  display: inline-block;
   line-height: 1.1;
   margin: 0;
   font-weight: 600;

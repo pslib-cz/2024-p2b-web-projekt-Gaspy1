@@ -6,14 +6,25 @@ header{
   padding: 1em 0;
   background: linear-gradient(90deg,  var(--color-primary) 0%, rgba(251, 153, 248, 1) 100%);
   color: var(--color-white);
-  
+  height: 65px;
+  box-sizing: border-box;
 }
 
-body{
+main{
   background-color: var(--color-secondary);
   min-width: 320px;
-  min-height: 100vh;
+  min-height: calc(100vh - 65px - 60px);
 }
+
+footer{
+  height: 60px;
+  padding: 0.25em;
+  box-sizing: border-box;
+  text-align: center;
+  background: linear-gradient(90deg, rgba(140, 140, 140, 1) 0%, rgba(188, 188, 188, 1) 100%);
+}
+
+
 
 img{
   width: 100%;
@@ -59,13 +70,13 @@ img{
 }
 
 .button {
-  display: inline-block;
   text-decoration: none;
   border-radius: 1.25em;
   text-align: center;
   color: var(--color-white);
   background-color: var(--color-primary);
   cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
 .button--form{
@@ -79,17 +90,16 @@ img{
 
 .button--card{
   padding: 0.75em 1em;
+  transition: transform 0.2s ease;
+}
+
+.button:hover {
+  transform: scale(1.1); 
 }
 
 .button__container {
   text-align: center;
-  margin: 1em;
-}
-
-.footer__text {
-  padding: 0.25em;
-  text-align: center;
-  background: linear-gradient(90deg, rgba(140, 140, 140, 1) 0%, rgba(188, 188, 188, 1) 100%);
+  padding: 1em 0;
 }
 
 .cards{
@@ -106,19 +116,15 @@ img{
   background-color: #E8E8E8;
   gap: var(--gap);
   padding: 1em 0;
-  margin: 0.75em 0.5em;
+  margin: 0.5em;
 }
 
-.card__img img{
+.card__img{
   width: 100%;
   height: auto;
   max-width: 100px;
-  transition: transform 0.3s ease;
 }
 
-.card__img:hover img {
-  transform: scale(1.15); 
-}
 
 .card__price {
   font-size: 1.5em;
@@ -150,5 +156,10 @@ form{
   flex-wrap: wrap;
   justify-content: center;
   gap: var(--gap);
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
+.form__container {
+  margin: 0 auto;
+}
