@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href= "/2024-p2b-web-projekt-Gaspy1/styles/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulář</title>
+  <script type="module" crossorigin src="/2024-p2b-web-projekt-Gaspy1/assets/modulepreload-polyfill-B5Qt9EMX.js"></script>
+  <script type="module" crossorigin src="/2024-p2b-web-projekt-Gaspy1/assets/main-D8HQBjVY.js"></script>
+  <link rel="stylesheet" crossorigin href="/2024-p2b-web-projekt-Gaspy1/assets/style-DTXLddri.css">
+</head>
+<body>
+  <header>
+    <div class="header__title">
+        <a href="/2024-p2b-web-projekt-Gaspy1/"><h1>SecretZone</h1></a>
+    </div>
+  </header>
+  <main>
+    <div class="main__text">
+        <div class="main__title">
+            <h2>Nákupní formulář</h2>
+        </div>
+        <div class="main__p">
+            <p>Prosím, vyplňte níže uvedené údaje.</p>
+        </div>
+    </div>
+    
+    <form>
+        <div>
+            <label class="form__label" for="jmeno">Jméno a příjmení</label>
+            <input class="form__input" type="text" id="jmeno" name="jmeno" placeholder="Tomáš Kazda">
+        </div>
+
+        <div>
+            <label class="form__label" for="email">Email</label>
+            <input class="form__input" type="email" id="email" name="email" placeholder="nejlepsiucitel@skola.cz">
+        </div>
+
+        <div>
+            <label class="form__label" for="adresa">Adresa</label>
+            <input class="form__input" type="text" id="adresa" name="adresa" placeholder="Tu bys měl vědět">
+        </div>
+
+        <div>
+            <label class="form__label" for="mesto">Město</label>
+            <input class="form__input" type="text" id="mesto" name="mesto" placeholder="Liberec">
+        </div>
+
+        <div>
+            <label class="form__label" for="psc">PSČ</label>
+            <input class="form__input" type="text" id="psc" name="psc" placeholder="XXX XX">
+        </div>
+
+        <div>
+            <label class="form__label" for="karta">Číslo platební karty</label>
+            <input class="form__input" type="text" id="karta" name="karta" placeholder="XXXX-XXXX-XXXX-XXXX">
+        </div>
+
+        <div>
+            <label class="form__label" for="platnost">Platnost platební karty</label>
+            <input class="form__input" type="text" id="platnost" name="platnost" placeholder="MM/RR">
+        </div>
+
+        <div>
+            <label class="form__label" for="cvc">CVC</label>
+            <input class="form__input" type="text" id="cvc" name="cvc" placeholder="XXX">
+        </div>
+    </form> 
+    <div class="button__container">
+        <a href="/2024-p2b-web-projekt-Gaspy1/kondomy/index.html" class="button button--form" id="buyButton">Koupit</a>
+    </div>
+    
+  </main>
+  <footer>
+    <div class="footer__text">
+        <p>Autor: Adam Gašparín</p>
+    </div>
+  </footer>
+</body>
+<script>document.getElementById("buyButton").addEventListener("click", function() {alert("Děkujeme za váš nákup!");});</script>
+</html>
