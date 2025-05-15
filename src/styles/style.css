@@ -125,7 +125,6 @@ img{
   background-color: #E8E8E8;
   gap: var(--gap);
   padding: 1em 0;
-  margin: 0.5em;
 }
 
 .card__img{
